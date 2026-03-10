@@ -1,0 +1,932 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Minha 1° página</title><link rel="canonical" href="https://pagina.pro/minha-1-pagina-pqosf"/><link rel="shortcut icon" href="https://app.landingpage.com.br/img/favicon.ico"><meta property="og:title" content="Minha 1° página" /><meta property="og:url" content="https://pagina.pro/minha-1-pagina-pqosf" /><meta property="og:type" content="website" /><meta property="og:locale" content="pt_BR" /><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" id="lp-meta">
+<!-- Precisa dos 2 kits do fontawesome para carregar os .woff -->
+<!-- ICONES SVG -->
+<!-- <script src="https://kit.fontawesome.com/5a382b57c2.js" crossorigin></script> -->
+
+<!-- FONTES NORMAIS -->
+<script src="https://kit.fontawesome.com/cdb0b0a676.js" async crossorigin="anonymous"></script>
+
+<!-- <script async src="https://app.landingpage.com.br/construtor/assets/scripts/glide/glide.min.js"></script> -->
+
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script> // removido vitor, sem utilidade-->
+<link rel="preload" as="style" href="https://app.landingpage.com.br/construtor/assets/prod/prod.css" />
+<link rel="stylesheet" type="text/css" href="https://app.landingpage.com.br/construtor/assets/prod/prod.css" />
+<link rel="preload" as="style" href="https://app.landingpage.com.br/construtor/assets/animate/animate.css" />
+<link rel="stylesheet" type="text/css" href="https://app.landingpage.com.br/construtor/assets/animate/animate.css" />
+<link rel="preload" as="style" href="https://app.landingpage.com.br/construtor/assets/animate/animate-prod.css" />
+<link rel="stylesheet" type="text/css" href="https://app.landingpage.com.br/construtor/assets/animate/animate-prod.css" />
+<link rel="preload" as="style" href="https://app.landingpage.com.br/construtor/assets/scripts/glide/css/glide.core.min.css" />
+<link rel="stylesheet" type="text/css" href="https://app.landingpage.com.br/construtor/assets/scripts/glide/css/glide.core.min.css" />
+<link rel="preload" as="style" href="https://app.landingpage.com.br/construtor/assets/scripts/glide/css/glide.theme.css" />
+<link rel="stylesheet" type="text/css" href="https://app.landingpage.com.br/construtor/assets/scripts/glide/css/glide.theme.css" />
+<link rel="preload" as="style" href="https://app.landingpage.com.br/construtor/assets/styles/tooltip.css" />
+<link rel="stylesheet" type="text/css" href="https://app.landingpage.com.br/construtor/assets/styles/tooltip.css" />
+
+<style>
+	body,
+	html {
+		font-family: 'Nunito', sans-serif;
+	}
+
+	.is-wrapper {
+		margin: auto !important;
+
+		/* overflow-x: hidden; */
+		/* overflow-y: auto; */
+	}
+
+	/* .mobile .is-wrapper {
+			margin-right: auto !important;
+			margin-left: auto !important;
+		} */
+
+	.mobile-travado .is-wrapper {
+		/* overflow: hidden; */
+		/* height: 100% !important; */
+	}
+
+	.mobile-apenasmob .is-wrapper {
+		overflow: hidden;
+	}
+
+	.mobile-desk .is-wrapper {
+		overflow: hidden;
+	}
+
+	@media only screen and (min-width: 1023px) {
+		.is-wrapper {
+			overflow: hidden;
+		}
+	}
+
+	.esconder {
+		display: none;
+	}
+
+	.parallax>div>div {
+		/* background-attachment: fixed; */
+		/* background-position: 100% 100% !important; */
+	}
+
+	/* CSS specific to iOS devices */
+	@supports (-webkit-touch-callout: none) {
+		.is-section.section-flex .is-block--flex {
+			align-items: flex-start !important;
+			align-content: flex-start !important;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		.is-wrapper {
+			overflow-x: clip;
+			/* overflow-y: hidden; */
+		}
+
+		body ::-webkit-scrollbar {
+			width: 0px !important;
+		}
+	}
+
+	.is-block.contador-novo.contador-landingpage.hide-prod {
+		display: none !important;
+	}
+
+	.is-block.fill-block {
+		width: 100% !important;
+		left: 0px !important;
+		margin-left: 0px !important
+	}
+
+	body .is-wrapper .is-section.pop-up-container {
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+		margin: 0 !important;
+		height: 100vh;
+		width: 100vw !important;
+		position: fixed !important;
+		top: 0 !important;
+		left: 0 !important;
+		z-index: 3002;
+		transition: .2s
+	}
+
+	.is-section.pop-up-container * {
+		pointer-events: none
+	}
+
+	body .is-wrapper .is-section.pop-up-container.active {
+		opacity: 1;
+		visibility: visible;
+		transition: .2s
+	}
+
+	body .is-wrapper .is-section.pop-up-container.active * {
+		pointer-events: initial
+	}
+
+	.overlay-forma-inferior,
+	.overlay-forma-inferior * {
+		pointer-events: none !important;
+	}
+</style>
+
+
+<link href='https://empreender.nyc3.digitaloceanspaces.com/landingpage/css/L20ePn2d_1754426792.css' rel='stylesheet'>
+	
+	<script>
+		function buscarClientIdGA4() {
+			return new Promise((resolve) => {
+				gtag('get', '', 'client_id',
+					function(clientID) {
+						resolve(clientID);
+					});
+			});
+		}
+
+		function buscarSessionIdGA4() {
+			return new Promise((resolve) => {
+				gtag('get', '', 'session_id',
+					function(sessionId) {
+						resolve(sessionId);
+					});
+			});
+		}
+
+		document.addEventListener('DOMContentLoaded', function() {
+			let tentativas = 0;
+			const maxTentativas = 30; // 30 tentativas = ~15 segundos (500ms entre tentativas)
+			const intervaloTentativa = 500; // 500ms
+
+			function tentarBuscarGA4Params() {
+				tentativas++;
+
+				if (typeof gtag === 'function') {
+					Promise.all([
+						buscarClientIdGA4().catch(() => null),
+						buscarSessionIdGA4().catch(() => null)
+					]).then(([clientId, sessionId]) => {
+						if (clientId || sessionId) {
+							// Sucesso - salvamos os dados
+							window['lp_ga4_params_1743185531'] = {
+								client_id: clientId,
+								session_id: sessionId,
+								timestamp: Date.now()
+							};
+							return;
+						}
+
+						// Se não conseguiu e ainda tem tentativas, tenta novamente
+						if (tentativas < maxTentativas) {
+							setTimeout(tentarBuscarGA4Params, intervaloTentativa);
+						}
+					});
+				} else {
+					// gtag não está disponível ainda
+					if (tentativas < maxTentativas) {
+						setTimeout(tentarBuscarGA4Params, intervaloTentativa);
+					}
+				}
+			}
+
+			// Inicia as tentativas
+			tentarBuscarGA4Params();
+		});
+
+		async function sendLandingpageEventsToTracker(events_to_execute) {
+			if (!events_to_execute) return 0;
+
+			let totalSentEventsWithoutcallback = 0;
+
+			try {
+				if (typeof fbq === 'function' && Array.isArray(events_to_execute['fbq'])) {
+
+					if (events_to_execute['configs'] && events_to_execute['configs']['user_data']) {
+						Object.keys(window.fbq.instance.pixelsByID).forEach(pixelId => {
+							if (events_to_execute['configs']['user_data']?.email_address) {
+								window.fbq.instance.pixelsByID[pixelId].userData['em'] = events_to_execute['configs']['user_data'].email_address.toLowerCase().trim();
+							}
+
+							if (events_to_execute['configs']['user_data']?.phone_number) {
+								window.fbq.instance.pixelsByID[pixelId].userData['ph'] = events_to_execute['configs']['user_data'].phone_number.replace(/\D/g, '');
+							}
+						});
+					}
+
+					events_to_execute['fbq'].forEach(event => {
+						totalSentEventsWithoutcallback++;
+						fbq(event['param_1'], event['param_2'], event['param_3'], event['param_4']);
+					});
+				}
+			} catch (err) {
+				console.log('erro ao enviar eventos para o tracker fbq', err);
+			}
+
+			try {
+				if (typeof gtag === 'function' && Array.isArray(events_to_execute['ga4']) && events_to_execute['ga4'].length > 0) {
+					await Promise.all(
+
+						events_to_execute['ga4'].map(event => {
+
+							if (typeof event['param_3'] !== 'object') {
+								event['param_3'] = {};
+							}
+
+							return Promise.race([
+								new Promise(resolve => {
+									event['param_3']['event_callback'] = () => resolve(true);
+									event['param_3']['event_timeout'] = 2000;
+									event['param_3']['transport_type'] = 'beacon';
+									gtag(event['param_1'], event['param_2'], event['param_3']);
+								}),
+								new Promise(resolve => setTimeout(() => resolve(false), 1500))
+							]);
+						})
+					);
+				}
+			} catch (err) {}
+
+			try {
+				if (typeof dataLayer !== 'undefined' && Array.isArray(dataLayer) && Array.isArray(events_to_execute['gtm'])) {
+					events_to_execute['gtm'].forEach(event => {
+						totalSentEventsWithoutcallback++;
+						dataLayer.push(event['param_1']);
+					});
+				}
+			} catch (err) {}
+
+			return totalSentEventsWithoutcallback;
+		}
+	</script>
+</head>
+
+<body>
+	<script>
+	var telaMobile = false;
+
+	function setMobile() {
+		document.body.classList.add('mobile', 'mobile-travado');
+		try {
+			document.querySelector('#lp-meta').content = "width=360, user-scalable=yes";
+		} catch (err) {
+			var newMetaElement = document.createElement('meta');
+
+			newMetaElement.name = 'viewport';
+			newMetaElement.content = 'width=360, user-scalable=yes';
+			newMetaElement.id = 'lp-meta';
+
+			var headElement = document.head || document.getElementsByTagName('head')[0];
+
+			var existingMetaElement = document.getElementById('lp-meta');
+			if (existingMetaElement) {
+				headElement.removeChild(existingMetaElement);
+			}
+			headElement.appendChild(newMetaElement);
+		}
+	}
+
+	function setDesktop() {
+		document.body.classList.remove('mobile', 'mobile-travado', 'mobile-desk');
+		document.querySelector('#lp-meta').content = "width=device-width, initial-scale=1.0";
+
+		telaMobile = false;
+
+	}
+
+	// troca de view mobile/desktop quando faz o resize
+	function checkWidth(forcarMobile = false) {
+		if (forcarMobile) {
+			setMobile();
+		}
+		var width = window.innerWidth;
+
+		if (width >= 1024) {
+			setDesktop();
+		} else {
+			setMobile();
+
+			telaMobile = true;
+
+		}
+	}
+
+	checkWidth();
+
+	// Nome ruim, mas pega os js dos sliders
+	var teste_arr = [];
+</script>
+<main class="is-wrapper"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet" type="text/css" id="Montserrat" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css2?family=Nunito&amp;display=swap" rel="stylesheet" type="text/css" id="Nunito" crossorigin="anonymous">
+			
+			
+			
+			
+					
+            
+    <section class="is-section g-rk3Rvzt" id="s-TmVppiA" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;">
+</section><section class="is-section g-AZlXNDL" id="s-TudY0HZ" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;"></section><section class="is-section g-wOBc6a1" id="s-DEoz8my" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;">
+        <div class="overlay-forma-superior g-kvHf6j5 overlay-forma"></div>
+
+        </section><section class="is-section g-NUASpBM" id="s-MQeAB97" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;"></section><section class="is-section g-Cjmw9No" id="s-fJoupZ6" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;"></section><section class="is-section g-LqCevzk" id="s-cuf2kfq" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;">
+</section><section class="is-section g-TtTMNeB" id="s-qgLcVgp" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;">
+</section>
+            
+            
+            
+            
+        
+        
+            
+            
+                
+                
+                    
+        
+    <script src="https://empreender.nyc3.digitaloceanspaces.com/static/LANDINGPAGE/parallaxInstancia" class="script-rastreio-mouse-instancia" defer=""></script>		
+        		
+            
+        
+			
+					
+            
+    <section class="is-section g-aZfDqQz" id="s-TmVppiA" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;">
+<div class="is-block is-text fit-content g-BGOnD23 new-block-1 wow fadeInDown mob-alterado medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" data-originalpos="11" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="97ede9a8-121b-1cfd-ae95-a0cb982a3db8" spellcheck="false" data-medium-focused="true">
+    <p class="g-CVdlV5e">Cuidados com os dentes</p>
+</div><div class="is-block is-text fit-content g-lNw9qhk new-block-1 wow fadeInDown medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="b014e37f-5e60-70dd-a673-7d48857c9fd1">
+    <p class="g-qd9Dy0E" style="">Endodontia: Tratamento de canal Dentário – Sem Dor<br></p>
+</div><div class="is-block is-text is-svg overlap g-hrRUQOZ new-block-1 medium-editor-element" data-height="127" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="c43f7dd1-b8d4-9548-d2d1-1d21d0da5704">
+    <svg viewBox="0 0 500 388" fill="rgba(244, 128, 115.00000000000001, 0.11)" style="height: 232.797px; width: 300px;" class="usa-cor-solida active g-UB4lUaV">
+        <defs class="defs-paths"><path d="M124.7,-172.9C168.7,-165.8,216.2,-143.1,244.4,-104.8C272.5,-66.4,281.3,-12.4,269.7,35.8C258.1,83.9,226.2,126.1,189.1,157.5C152,189,109.8,209.6,70.4,205.7C30.9,201.8,-5.8,173.3,-45.4,159.5C-85,145.7,-127.5,146.5,-160.5,128.1C-193.5,109.8,-217,72.2,-215.2,35.5C-213.4,-1.2,-186.3,-36.9,-162.7,-68.4C-139.1,-99.8,-119,-126.9,-92.5,-141.9C-66,-157,-33,-160,3.7,-165.7C40.4,-171.5,80.7,-180,124.7,-172.9Z" transform="translate(220,180)" id="ACq9tai"></path><clipPath id="RTjDODD"><use xlink:href="#ACq9tai"></use></clipPath></defs>
+
+
+
+        <g class="forma"><use xlink:href="#ACq9tai" stroke="#000" clip-path="url(#RTjDODD)" style="height: auto; width: auto;" class="active g-ymmtUHP"></use></g>
+    </svg>
+</div>
+    
+    
+    
+    
+    
+    </section><section class="is-section g-gsaCQYl" id="s-TudY0HZ" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;"><div class="is-block bloco-selecto g-il3yFHX new-block-1 fadeInRight wow" data-height="116" style="opacity: 1;"></div><div class="fit-content g-jGU5gef is-block is-text new-block-1 wow fadeInRight medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="bc82c464-b0bd-1cfb-917d-ee595557178d"> <h2 class="g-zgRkGdv" style=""><b>Dr Gabriel Magalhães</b></h2>
+</div><div class="is-block is-text fit-content g-HKt7Rc6 new-block-1 wow fadeInDown medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="e4b28935-f9e3-7f99-a7f8-02d3f79c8bd3">
+    <p class="g-mqRr35p">cuidados<br style="color: rgb(0, 124, 133) !important;" class="g-Nn1mAJ5"></p>
+</div><div class="is-block is-text fit-content g-fPxaT36 new-block-1 wow fadeInDown medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="a9ea7760-0c07-a4fc-17a5-7d723504f87f">
+    <p class="g-fTH7OU1" style="">O tratamento:</p>
+</div><div class="is-block is-text fit-content g-jzCWh3x new-block-1 wow fadeInDown medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="4ebe5f63-95c3-8657-f40c-2992ff49cbaf">
+    <p class="g-eJ4UhkK" style="">O que é o tratamento de canal?
+
+O tratamento de canal é um procedimento odontológico realizado para remover a polpa infeccionada ou danificada de dentro do dente. A polpa é o tecido mole que contém nervos e vasos sanguíneos, localizado no interior do dente.<br class="g-AXgpIlC" style="color: rgb(145, 149, 168) !important;"></p>
+</div><div class="is-block is-text fit-content block-btn g-FhLXOLK bloco-botao new-block-1 btn-icone open-pop-up fadeInDown wow mob-alterado medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-originalpos="413" data-height="40" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="48" medium-editor-index="6bac5990-6eca-62bc-05de-e7cf3d6f8b94">
+    <a class="btn g-PUVWsNG active hover-grad  infinite icon-right hover-svg" href="https://" data-num="5" style="">Assistir Vídeo<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-circle-right" class="svg-MNztb53--fa fa-caret-circle-right g-HNyiwn0" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-27.5 379.5l123-123c4.7-4.7 4.7-12.3 0-17l-123-123c-7.6-7.6-20.5-2.2-20.5 8.5v246c0 10.7 12.9 16.1 20.5 8.5z" class="g-cURk6XR"></path></svg></a>
+</div><div class="is-block is-text fit-content block-btn g-NnUx8d6 bloco-botao new-block-1 open-pop-up fadeInDown wow medium-editor-element mob-alterado" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="16" medium-editor-index="b79764d1-390f-ee0a-e2b3-1ea3164f1005" spellcheck="false" data-medium-focused="true" data-originalpos="413">
+    <a class="btn g-CXdNP0X active hover-grad infinite" href="https://wa.me/5521969550587?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" data-num="5" style="" target="_blank">Agendar&nbsp;</a>
+</div><div class="is-block bloco-selecto g-CvDbQou new-block-1 new-shadow fadeIn wow" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block bloco-selecto g-hummC9E new-block-1 new-shadow fadeIn wow" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block bloco-selecto g-eJhbRs3 new-block-1 new-shadow fadeIn wow" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block is-text fit-content g-NZCfR1o new-block-1 wow fadeIn medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="5d9cbfa5-615f-ff0e-cbb7-4439b2ce2916">
+    <h1 class="g-CLtzpm3" style="">Prevenção<br style="" class="g-uoqA78X"></h1>
+</div><div class="is-block is-text fit-content g-sPSHuLk new-block-1 wow fadeIn medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="531e07e0-3442-1063-5c2f-f3fcdff04385">
+    <h1 class="g-DeNHuQJ" style="">Manutenção</h1>
+</div><div class="is-block is-text fit-content g-DxWtbS0 new-block-1 wow fadeIn medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="76e00342-beda-ba40-182f-edee13c37852">
+    <h1 class="g-AYeW5TB" style="">Cuidados&nbsp;</h1>
+</div><div class="is-block bloco-selecto g-BkPFx8e new-block-1" data-height="116"></div><div class="is-block bloco-selecto g-ZFQH2kM new-block-1" data-height="116"></div>
+    
+    
+    
+    <div class="is-block g-fnY3fK2 medium-editor-element mob-alterado" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="115" medium-editor-index="b40dafff-f51c-7954-354e-ede0326550a9" data-originalpos="438" data-height="175">
+          <div class="landingpage-widget-imagem">
+            
+        <img loading='lazy' style="width: 100%; height:100%;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/uploads/landingpage/lqrhcx022402.png" data-width="315" id="count-Jzb47mJ">
+    
+          </div>
+        </div><div class="is-block is-text fit-content block-btn g-HgtqDQm bloco-botao new-block-1 open-pop-up fadeInDown wow mob-alterado medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" spellcheck="false" data-originalpos="98" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="38" medium-editor-index="6b4a7f21-ac0e-2ff7-cd28-c5b47a67461c" data-medium-focused="true">
+    <a class="btn g-zijhwPy active hover-grad infinite" href="#popup-video" data-num="5" style="" title="">Dr. Gabriel Magalhães</a>
+</div><div class="is-block is-text fit-content g-mfhBIU9 new-block-1 wow fadeInDown mob-alterado medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" style="opacity: 1;" spellcheck="false" data-originalpos="907" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="35" medium-editor-index="5f5574ad-2273-e9f6-04bd-141596908cbc" data-medium-focused="true">
+    <p class="g-Jcv8BM1" style="">Sobre o dentista. Formado desde 2013 pela faculdade Unigranrio de Odontologia. Atua na área a mais de 10 anos. Possui especialização em Endondontia(PUC-RJ) e Implantodontia(Unigranrio).&nbsp; &nbsp;</p>
+</div></section><section class="is-section g-LOagPOr" id="s-DEoz8my" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;">
+        <div class="overlay-forma-superior g-Fc8a26b overlay-forma"></div>
+
+        <div class="is-block is-text fit-content g-XoOyL9P new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="74124adc-a54a-6ec6-675d-c669263f95b9">
+    <p class="g-ZYuoOvM">BENEFÍCIOS do Cuidado<br style="color: rgb(0, 124, 133) !important;" class="g-Oi13o2U"></p>
+</div><div class="is-block is-text fit-content g-GOOKh0g new-block-1 mob-alterado medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" spellcheck="false" data-originalpos="48" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="33" medium-editor-index="c2c09ee0-2d94-dc93-93aa-fa55398f1b35">
+    <p class="g-KwZ3B8k" style="">Proteger, reparar e cuidar<br style="color: rgb(34, 34, 34) !important;" class="g-TssWK81"></p>
+</div><div class="is-block bloco-selecto g-PKmMmtO new-block-1 new-shadow wow fadeInLeft" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block is-text fit-content g-AjGHMic new-block-1 wow fadeInLeft medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="fdc0e4d3-1dc3-552b-6318-4d779ba80371">
+    <h1 class="g-in2wpGz" style=""><font face="Font Awesome 6 Pro, Font Awesome 5 Brands">1</font></h1>
+</div><div class="is-block is-text fit-content g-Zlf4140 new-block-1 wow fadeInLeft medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="23" medium-editor-index="8021b7a8-419f-fb54-0f9a-d9cde760d35c" spellcheck="false">
+    <p class="g-cl8ewls">Sem Dor. Realizado sob efeito de anestesia<br style="" class="g-kNBgP3Z"></p>
+</div><div class="is-block bloco-selecto g-uVIrt35 new-block-1 new-shadow wow fadeInLeft" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block is-text fit-content g-nXVOOpG new-block-1 wow fadeInLeft medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="2391b5e3-5fea-f95d-6fe3-405ed97dedc3">
+    <h1 class="g-iveQZoi" style=""><font face="Font Awesome 6 Pro, Font Awesome 5 Brands">2</font></h1>
+</div><div class="is-block is-text fit-content g-MPGg5Oj new-block-1 wow fadeInLeft medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="02408c8a-2988-9368-5e6e-6bfe6f2d1a90">
+    <p class="g-yA4PQif">Realizado em um único atendimento</p>
+</div><div class="is-block bloco-selecto g-QybicmJ new-block-1 new-shadow wow fadeInLeft" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block is-text fit-content g-tQL9aYs new-block-1 wow fadeInLeft medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="e0426785-e566-597a-2c51-6d2601997f06">
+    <h1 class="g-Uixhss7" style=""><font face="Font Awesome 6 Pro, Font Awesome 5 Brands">3</font></h1>
+</div><div class="is-block is-text fit-content g-ezfqmQZ new-block-1 wow fadeInLeft medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="89fcf2da-3853-2e6d-1565-54a7ad5b7d29">
+    <p class="g-dVRrBFo">Tratamento seguro. Não possui contra indicações</p>
+</div><div class="is-block is-text fit-content g-OQHeDTT new-block-1 wow fadeInRight medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="9bac4a0b-76d6-3cb4-2120-5f7117f5732c">
+    <p class="g-qu72Cnj">Dentes saudáveis e boa alimentação</p>
+</div><div class="is-block bloco-selecto g-SVga4hY new-block-1 new-shadow wow fadeInRight" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block is-text fit-content g-alKSdgl new-block-1 wow fadeInRight medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="64fe8998-73e0-4e68-4203-ce42be70df3b">
+    <h1 class="g-MrZ5LiS" style=""><font face="Font Awesome 6 Pro, Font Awesome 5 Brands">4</font></h1>
+</div><div class="is-block is-text fit-content g-GvcaTrX new-block-1 wow fadeInRight medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="89db152a-3d47-f20c-4781-02bfd91d9b59">
+    <p class="g-AXvMqC2">Sorriso confiante<br style="" class="g-aLSFbzH"></p>
+</div><div class="is-block bloco-selecto g-oOQKlnQ new-block-1 new-shadow wow fadeInRight" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block is-text fit-content g-WtHqkgg new-block-1 wow fadeInRight medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="e280836d-7308-8e0e-5aab-f0a2a2845470">
+    <h1 class="g-BwMdKQi" style=""><font face="Font Awesome 6 Pro, Font Awesome 5 Brands">5</font></h1>
+</div><div class="is-block is-text fit-content g-TfOGYAr new-block-1 wow fadeInRight medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="533cbdf3-9f7b-e272-83b2-6ed255b50c8d">
+    <p class="g-OAlCdJy">Remove infeções bucais<br style="" class="g-ZYFkXi2"></p>
+</div><div class="is-block bloco-selecto g-REC4Mco new-block-1 new-shadow wow fadeInRight" data-height="116" data-shadow-config="{&quot;lightPosition&quot;:[0.02,1],&quot;distance&quot;:32,&quot;intensity&quot;:0.5,&quot;sharpness&quot;:0.5,&quot;color&quot;:[246,245,233]}"></div><div class="is-block is-text fit-content g-uPPdfQz new-block-1 wow fadeInRight medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="fbcd1564-acaa-4659-c2f1-2659bbef358a">
+    <h1 class="g-uLpgGnz" style=""><font face="Font Awesome 6 Pro, Font Awesome 5 Brands">6</font></h1>
+</div>
+    <div class="is-block g-RQodwA0 new-block-1 medium-editor-element" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="efaa8da8-bc50-e4b0-46f6-77afdcf69944">
+          <div class="landingpage-widget-imagem">
+            
+        <img loading='lazy' style="width: 100%; height:100%;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/68871042bcbd4.png" data-width="749">
+    
+          </div>
+        </div>
+    </section><section class="is-section g-RLuBBfT" id="s-MQeAB97" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;"><div class="is-block is-text fit-content g-Pm6kCqy new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="7774fc6e-f5e9-35ea-51f1-359e98a91bd9">
+    <p class="g-vo0TN1H">Reviews<br style="color: rgb(0, 124, 133) !important;" class="g-ftloWbb"></p>
+</div><div class="is-block is-text fit-content g-eT6Kcdf new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="b96dc620-300b-39e6-a43e-fd2341e86246" spellcheck="false">
+    <p class="g-OuAaugG" style="">Confiado por mais de 5.000 pacientes<br style="color: rgb(34, 34, 34) !important;" class="g-wi8llJ8"></p>
+</div><div class="is-block g-OmlfapB bloco-review new-block-1 medium-editor-element mob-alterado n-responsive" data-settings--review="%5B%7B%22id%22%3A14%2C%22imagem%22%3A%22https%3A%2F%2Fempreender.nyc3.digitaloceanspaces.com%2Flandingpage%2Flandingpage%2Fv4m5tm054209.jpg%22%2C%22nome%22%3A%22Lu%C3%ADsa%22%2C%22subtitulo%22%3A%22%22%2C%22avaliacao%22%3A5%2C%22estrelas%22%3A%22%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%22%2C%22review%22%3A%22Maravilhoso!%20Sem%20dor!%20%22%7D%2C%7B%22id%22%3A18%2C%22imagem%22%3A%22https%3A%2F%2Fempreender.nyc3.digitaloceanspaces.com%2Flandingpage%2Flandingpage%2Fqfdlea052520.jpg%22%2C%22nome%22%3A%22Vitor%20Paix%C3%A3o%22%2C%22subtitulo%22%3A%22%22%2C%22avaliacao%22%3A5%2C%22estrelas%22%3A%22%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%22%2C%22review%22%3A%22Sem%20coment%C3%A1rios.%20Apenas%205%20estrelas.%22%7D%2C%7B%22id%22%3A20%2C%22imagem%22%3A%22https%3A%2F%2Fapp.landingpage.com.br%2Fconstrutor%2Fassets%2Fvetores%2Fdefault-user.png%22%2C%22nome%22%3A%22Vit%C3%B3ria%20Lopes%22%2C%22subtitulo%22%3A%22%22%2C%22avaliacao%22%3A5%2C%22estrelas%22%3A%22%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%22%2C%22review%22%3A%22Simplesmente%20Sensacional.%20Recomendo%20muito.%22%7D%2C%7B%22id%22%3A21%2C%22imagem%22%3A%22https%3A%2F%2Fapp.landingpage.com.br%2Fconstrutor%2Fassets%2Fvetores%2Fdefault-user.png%22%2C%22nome%22%3A%22Neyde%22%2C%22subtitulo%22%3A%22%22%2C%22avaliacao%22%3A5%2C%22estrelas%22%3A%22%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%22%2C%22review%22%3A%22Finalmente%20achei%20meu%20Dr.%20n%C3%A3o%20troco%20ele%20por%20nada.%22%7D%2C%7B%22id%22%3A22%2C%22imagem%22%3A%22https%3A%2F%2Fapp.landingpage.com.br%2Fconstrutor%2Fassets%2Fvetores%2Fdefault-user.png%22%2C%22nome%22%3A%22Cris%20B.%22%2C%22subtitulo%22%3A%22%22%2C%22avaliacao%22%3A5%2C%22estrelas%22%3A%22%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%3Ci%20class%3D%5C%22fas%20fa-star%5C%22%3E%3C%2Fi%3E%22%2C%22review%22%3A%22R%C3%A1pido!%20Sem%20dor!%20Seguro!%20Resolutivo!%20%22%7D%5D" data-settings--review-opt="%7B%22quantidade%22%3A4%2C%22auto%22%3A2000%2C%22espacamento%22%3A15%2C%22template%22%3A3%7D" data-template-id="3" data-html="" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="8b9ba0d4-4b18-b404-2b2b-ba41b2d94b51" data-originalpos="187">
+            <div class="glide slide-review--temp5" id="slider-hBRvVyQ">
+                <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    
+                <li class="glide__slide" style="width: 470px; height: 100%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 100%;height: 100%;display: grid;overflow: hidden;" class="container-slider-review review-fundo">
+
+                        <div class="user-footer segunda-cor-fundo">
+                        <div class="user-img" style="width: 100%;height: 200px;">
+                            <img loading='lazy' style="height: 100%; width: 100%; display: flex !important; object-fit: cover;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/landingpage/v4m5tm054209.jpg" alt="Foto de Luísa">
+                        </div>
+
+                        <span class="rating" style="padding: 20px;justify-content: center;width: 100%;width: 100%;display: flex;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+                        <div class="user-detalhes" style="text-align: center; padding: 10px 20px;">
+                            <p class="nome-user">Luísa</p>
+                            <span class="subtitulo"></span>
+                        </div>
+                    </div>
+
+                        <div class="review-texto" style="text-align: center;padding: 0 20px; padding-bottom: 15px;">
+                            <p>Maravilhoso! Sem dor! </p>
+                        </div>
+
+                    </div>
+                </li>
+                
+                <li class="glide__slide" style="width: 470px; height: 100%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 100%;height: 100%;display: grid;overflow: hidden;" class="container-slider-review review-fundo">
+
+                        <div class="user-footer segunda-cor-fundo">
+                        <div class="user-img" style="width: 100%;height: 200px;">
+                            <img loading='lazy' style="height: 100%; width: 100%; display: flex !important; object-fit: cover;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/landingpage/qfdlea052520.jpg" alt="Foto de Vitor Paixão">
+                        </div>
+
+                        <span class="rating" style="padding: 20px;justify-content: center;width: 100%;width: 100%;display: flex;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+                        <div class="user-detalhes" style="text-align: center; padding: 10px 20px;">
+                            <p class="nome-user">Vitor Paixão</p>
+                            <span class="subtitulo"></span>
+                        </div>
+                    </div>
+
+                        <div class="review-texto" style="text-align: center;padding: 0 20px; padding-bottom: 15px;">
+                            <p>Sem comentários. Apenas 5 estrelas.</p>
+                        </div>
+
+                    </div>
+                </li>
+                
+                <li class="glide__slide" style="width: 470px; height: 100%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 100%;height: 100%;display: grid;overflow: hidden;" class="container-slider-review review-fundo">
+
+                        <div class="user-footer segunda-cor-fundo">
+                        <div class="user-img" style="width: 100%;height: 200px;">
+                            <img loading='lazy' style="height: 100%; width: 100%; display: flex !important; object-fit: cover;" src="https://app.landingpage.com.br/construtor/assets/vetores/default-user.png" alt="Foto de Vitória Lopes">
+                        </div>
+
+                        <span class="rating" style="padding: 20px;justify-content: center;width: 100%;width: 100%;display: flex;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+                        <div class="user-detalhes" style="text-align: center; padding: 10px 20px;">
+                            <p class="nome-user">Vitória Lopes</p>
+                            <span class="subtitulo"></span>
+                        </div>
+                    </div>
+
+                        <div class="review-texto" style="text-align: center;padding: 0 20px; padding-bottom: 15px;">
+                            <p>Simplesmente Sensacional. Recomendo muito.</p>
+                        </div>
+
+                    </div>
+                </li>
+                
+                <li class="glide__slide" style="width: 470px; height: 100%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 100%;height: 100%;display: grid;overflow: hidden;" class="container-slider-review review-fundo">
+
+                        <div class="user-footer segunda-cor-fundo">
+                        <div class="user-img" style="width: 100%;height: 200px;">
+                            <img loading='lazy' style="height: 100%; width: 100%; display: flex !important; object-fit: cover;" src="https://app.landingpage.com.br/construtor/assets/vetores/default-user.png" alt="Foto de Neyde">
+                        </div>
+
+                        <span class="rating" style="padding: 20px;justify-content: center;width: 100%;width: 100%;display: flex;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+                        <div class="user-detalhes" style="text-align: center; padding: 10px 20px;">
+                            <p class="nome-user">Neyde</p>
+                            <span class="subtitulo"></span>
+                        </div>
+                    </div>
+
+                        <div class="review-texto" style="text-align: center;padding: 0 20px; padding-bottom: 15px;">
+                            <p>Finalmente achei meu Dr. não troco ele por nada.</p>
+                        </div>
+
+                    </div>
+                </li>
+                
+                <li class="glide__slide" style="width: 470px; height: 100%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 100%;height: 100%;display: grid;overflow: hidden;" class="container-slider-review review-fundo">
+
+                        <div class="user-footer segunda-cor-fundo">
+                        <div class="user-img" style="width: 100%;height: 200px;">
+                            <img loading='lazy' style="height: 100%; width: 100%; display: flex !important; object-fit: cover;" src="https://app.landingpage.com.br/construtor/assets/vetores/default-user.png" alt="Foto de Cris B.">
+                        </div>
+
+                        <span class="rating" style="padding: 20px;justify-content: center;width: 100%;width: 100%;display: flex;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+                        <div class="user-detalhes" style="text-align: center; padding: 10px 20px;">
+                            <p class="nome-user">Cris B.</p>
+                            <span class="subtitulo"></span>
+                        </div>
+                    </div>
+
+                        <div class="review-texto" style="text-align: center;padding: 0 20px; padding-bottom: 15px;">
+                            <p>Rápido! Sem dor! Seguro! Resolutivo! </p>
+                        </div>
+
+                    </div>
+                </li>
+                
+                </ul>
+                </div>
+            </div>
+
+            <script>
+            var _hBRvVyQ;
+            var setTime_hBRvVyQ = setInterval(() => {
+                if(Glide) {
+                    clearInterval(setTime_hBRvVyQ);
+                    _hBRvVyQ = new Glide('#slider-hBRvVyQ', {
+                                type: "carousel",
+                                perView: 4,
+                                gap: 15,
+                                autoplay: 2000,
+                                 breakpoints: {
+                                    1024: {
+                                        perView: 1
+                                    }
+                                }
+                            }).on('mount.after', () => {
+                                let currentView = document.querySelector('.is-wrapper')?.classList[1] || 'desktop';
+
+                                if(document.body.classList.contains('mobile')) currentView = 'mobile';
+
+                                const quantidade = 4;
+
+                                if(currentView === 'mobile') {
+                                    _hBRvVyQ?.update({
+                                        perView: 1,
+                                    });
+                                }else {
+                                    _hBRvVyQ?.update({
+                                        perView: quantidade,
+                                    });
+                                }
+                            });
+
+                            _hBRvVyQ?.mount();
+        
+                            teste_arr.push({
+                                perView: 4,
+                                glide: _hBRvVyQ,
+                            });
+
+                            
+                    }
+            }, 100);
+
+
+            </script>
+        </div><div class="is-block is-text is-svg overlap g-oF7ntWz new-block-1 medium-editor-element" data-height="127" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="f35a7c07-3150-987c-9366-4ba8a93e53b2">
+    <svg viewBox="0 0 500 388" fill="rgba(244, 128, 115.00000000000001, 0.11)" style="height: 232.797px; width: 300px;" class="usa-cor-solida active g-OCPAwdZ">
+        <defs class="defs-paths"><path d="M124.7,-172.9C168.7,-165.8,216.2,-143.1,244.4,-104.8C272.5,-66.4,281.3,-12.4,269.7,35.8C258.1,83.9,226.2,126.1,189.1,157.5C152,189,109.8,209.6,70.4,205.7C30.9,201.8,-5.8,173.3,-45.4,159.5C-85,145.7,-127.5,146.5,-160.5,128.1C-193.5,109.8,-217,72.2,-215.2,35.5C-213.4,-1.2,-186.3,-36.9,-162.7,-68.4C-139.1,-99.8,-119,-126.9,-92.5,-141.9C-66,-157,-33,-160,3.7,-165.7C40.4,-171.5,80.7,-180,124.7,-172.9Z" transform="translate(220,180)" id="ACq9tai"></path><clipPath id="RTjDODD"><use xlink:href="#ACq9tai"></use></clipPath></defs>
+
+
+
+        <g class="forma"><use xlink:href="#ACq9tai" stroke="#000" clip-path="url(#RTjDODD)" style="height: auto; width: auto;" class="active g-rjc5Vsa"></use></g>
+    </svg>
+</div></section><section class="is-section g-FleqrZo" id="s-fJoupZ6" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;"><div class="is-block bloco-selecto g-PWmxLxi new-block-1 fadeInLeft wow" data-height="116"></div><div class="is-block is-text fit-content block-btn g-DnxESNZ bloco-botao new-block-1 btn-icone open-pop-up fadeInLeft wow mob-alterado medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-originalpos="285" data-height="40" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="48" medium-editor-index="b6aa4920-259f-65da-aa43-c499dec77fd1">
+    <a class="btn g-fyjJUAN active hover-grad infinite icon-right hover-svg" href="https://" data-num="5" style="">Assistir Vídeo<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-circle-right" class="svg-MNztb53--fa fa-caret-circle-right g-HNyiwn0" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-27.5 379.5l123-123c4.7-4.7 4.7-12.3 0-17l-123-123c-7.6-7.6-20.5-2.2-20.5 8.5v246c0 10.7 12.9 16.1 20.5 8.5z" class="g-cURk6XR"></path></svg></a>
+</div><div class="is-block is-text fit-content g-PnXFwib new-block-1 wow fadeIn medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="e472e9fa-0b11-c1fd-5a4a-e6f1af40568e">
+    <p class="g-mqRr35p">cuidados<br style="color: rgb(0, 124, 133) !important;" class="g-Nn1mAJ5"></p>
+</div><div class="is-block is-text fit-content g-ehh6wcK new-block-1 wow fadeIn medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="a29377e8-b536-9a11-7181-37a32abfa586">
+    <p class="g-fTH7OU1" style="">Descubra o Tratamento<br style="color: rgb(34, 34, 34) !important;" class="g-yRtPc51"></p>
+</div><div class="is-block is-text fit-content g-EkoL9Sd new-block-1 wow fadeIn medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="6994970f-8321-434e-400e-4a0661ca1945">
+    <p class="g-bWCrw1f" style="">Quando ele é necessário?
+
+O tratamento de canal é indicado quando a polpa do dente está:
+
+Infectada por bactérias (geralmente por cáries profundas);
+
+Inflamada devido a trauma ou lesão;
+
+Morta (necrosada), causando dor ou formação de abscesso.<br class="g-TEH72fJ" style="color: rgb(145, 149, 168) !important;"></p>
+</div>
+    
+    
+    
+    
+    
+    
+    <div class="is-block g-ioPYHVx new-block-1 is-svg medium-editor-element" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="5188a524-8e03-a155-a68c-4497a345de07">
+
+        <svg viewBox="0 0 430 425" fill="url(#gtcRo1I)" class="usa-cor-solida null g-VL4hq55 wow fadeInRight" xmlns="http://www.w3.org/2000/svg" style="width: 100%;height: auto;">
+            <defs class="defs-paths"><path d="M171.9,-100.1C202.9,-45.5,194.6,31,159.3,98.5C124.1,166,62.1,224.5,-6.6,228.3C-75.3,232.2,-150.7,181.3,-193.8,109.3C-237,37.2,-248,-56.2,-210.3,-114.6C-172.6,-173,-86.3,-196.5,-7.9,-191.9C70.4,-187.3,140.9,-154.7,171.9,-100.1Z" transform="translate(236,195)" id="JOTQ5jj"></path><mask id="aqdjIMN" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0">
+                    <use xlink:href="#forma-7-path-1"></use>
+                </mask><clipPath id="hDeN3iD"><use xlink:href="#JOTQ5jj"></use></clipPath></defs>
+
+            <defs class="defs-imagem">
+                <pattern id="gtcRo1I" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <image width="1" height="1" preserveAspectRatio="xMidYMid slice" xlink:href="https://empreender.nyc3.digitaloceanspaces.com/landingpage/68871043a4625.jpeg"></image>
+                </pattern>
+            </defs>
+
+            <defs class="fundo-mask">
+                <rect id="HivtA0N" width="100%" height="100%"></rect>
+            </defs>
+
+            <g class="forma" false=""><use xlink:href="#JOTQ5jj" stroke="#000" stroke-width="0" clip-path="url(#hDeN3iD)"></use></g>
+        </svg>
+        
+        </div>
+    <div class="is-block g-oEyF7bc medium-editor-element mob-alterado" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="17" medium-editor-index="e8d9342b-8e30-7205-2147-ec6f69bf5f05" data-originalpos="671">
+          <div class="landingpage-widget-imagem">
+            
+        <img loading='lazy' style="width: 100%; height:100%;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/uploads/landingpage/qxx4nb023343.png" id="count-zkBlxqG" class="wow g-mXluKoE fadeIn">
+    
+          </div>
+        </div></section><section class="is-section g-RaGjzMU" id="s-cuf2kfq" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;">
+<div class="is-block is-text fit-content g-oCMNkK7 new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="271d133a-8fd3-9721-3a33-62331dbe8eb7">
+    <p class="g-HlLdafN" style="">Tratamento Endodôntico</p>
+</div><div class="is-block is-text fit-content g-BO3qO68 new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="f3b20084-aed3-4fc2-e345-bf234078928f">
+    <p class="g-YpZYJdH" style="">Quais os sintomas comuns?
+
+Dor de dente persistente (espontânea ou ao mastigar);
+
+Sensibilidade prolongada ao calor ou frio;
+
+Inchaço na gengiva próximo ao dente;
+
+Escurecimento do dente;
+
+Presença de fístula (bolha de pus).<br class="g-xy3ud7Q" style="color: rgb(83, 83, 83) !important;"></p>
+</div><div class="is-block is-text fit-content block-btn g-WPASTK2 bloco-botao new-block-1 open-pop-up btn-icone medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="110" medium-editor-index="d977bf30-6609-4b2d-93d4-ba0bddcdb8ac">
+    <a class="btn g-vKx2Sh1 active hover-grad infinite icon-right hover-svg" href="https://wa.me/5521969550587?text=Olá,%20gostaria%20de%20agendar" data-num="5" style="">Agendar<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp undefined" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></a>
+</div><div class="is-block is-text fit-content block-btn g-VDsgYC1 bloco-botao new-block-1 open-pop-up btn-icone medium-editor-element mob-alterado" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="110" medium-editor-index="31a0b0d9-d956-ba28-1990-a4b0dc5594c6" data-originalpos="283">
+    <a class="btn g-Bt074Bz active hover-grad infinite icon-right hover-svg" href="https://www.instagram.com/dr_gabriel_magalhaes/?locale=pt&amp;hl=bn" data-num="5" style="">Duvidas<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram undefined" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a>
+</div><div class="is-block is-text fit-content g-nzp1Z5k new-block-1 medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="0b46e4a6-4488-32d8-1732-f47510330229">
+    <p class="g-NNrN2cd" style="">O tratamento pode variar de pessoa para pessoa.<br style="" class="g-ENz1nsJ"></p>
+</div><div class="is-block is-text fit-content g-BYOXs6e new-block-1 medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="f45219b5-4dc7-9fca-d454-e7a710799dc6">
+    <p class="g-AZak28F" style="">Saúde é vida, Cuide-se.</p>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="is-block is-text is-svg overlap g-QEsFB1Y new-block-1 medium-editor-element" data-height="127" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="f35a7c07-3150-987c-9366-4ba8a93e53b2">
+    <svg viewBox="0 0 500 388" fill="rgba(244, 128, 115.00000000000001, 0.11)" style="height: 232.797px; width: 300px;" class="usa-cor-solida active g-WmkNJ3M">
+        <defs class="defs-paths"><path d="M124.7,-172.9C168.7,-165.8,216.2,-143.1,244.4,-104.8C272.5,-66.4,281.3,-12.4,269.7,35.8C258.1,83.9,226.2,126.1,189.1,157.5C152,189,109.8,209.6,70.4,205.7C30.9,201.8,-5.8,173.3,-45.4,159.5C-85,145.7,-127.5,146.5,-160.5,128.1C-193.5,109.8,-217,72.2,-215.2,35.5C-213.4,-1.2,-186.3,-36.9,-162.7,-68.4C-139.1,-99.8,-119,-126.9,-92.5,-141.9C-66,-157,-33,-160,3.7,-165.7C40.4,-171.5,80.7,-180,124.7,-172.9Z" transform="translate(220,180)" id="TEOcbVY"></path><clipPath id="nueNPIY"><use xlink:href="#TEOcbVY"></use></clipPath></defs>
+
+
+
+        <g class="forma"><use xlink:href="#TEOcbVY" stroke="#000" clip-path="url(#nueNPIY)" style="height: auto; width: auto;" class="active g-tt5gLNp"></use></g>
+    </svg>
+</div></section><section class="is-section g-NgY081f active" id="s-qgLcVgp" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; background-image: unset !important;"><div class="is-block is-text fit-content g-Gs8sKdv new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="23" medium-editor-index="46808b02-71c1-9d9c-d4c6-b5e2afd2fb32">
+    <p class="g-lUCidLQ" style="">Perguntas frequentes<br style="color: rgb(34, 34, 34) !important;" class="g-NeVqbIX"></p>
+</div>
+
+    
+    <div class="is-block is-text fit-content g-JhQYBYe new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="2ba5999d-21c4-b0bc-7ce3-f7189ee9b83f" spellcheck="false">
+    <p class="g-tEXnUYd" style=""><b>O tratamento dói?</b>
+
+Com o uso de anestesia moderna, o tratamento de canal é praticamente indolor. Muitos pacientes relatam mais alívio do que desconforto.<br class="g-bvi9J2h" style="color: rgb(83, 83, 83) !important;"></p>
+</div><div class="is-block is-text fit-content g-srLlbec new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="17ea4ffe-873c-cb7d-484f-ec92a4d63a4d">
+    <p class="g-oocMikk" style=""><b>Como é feito o tratamento?</b>
+
+Anestesia local: para garantir conforto durante o procedimento.
+
+Abertura do dente: para acessar o canal.
+
+Remoção da polpa: o tecido infectado é removido.
+
+Limpeza e desinfecção dos canais.
+
+Preenchimento dos canais com material obturador.
+
+Restauração: o dente é selado e, em alguns casos, recebe uma coroa para proteção.<br class="g-bHXWvyZ" style="color: rgb(83, 83, 83) !important;"></p>
+</div><div class="is-block is-text fit-content g-RqQqagy new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="ddc5273c-d161-c232-ff02-116b910a843a">
+    <p class="g-GjsjEs7" style=""><b>O que acontece depois?</b>
+
+Após o tratamento, pode haver sensibilidade leve por alguns dias, que pode ser controlada com analgésicos comuns. É essencial retornar ao dentista para finalizar a restauração e acompanhar a recuperação.<br class="g-ugx5ciz" style="color: rgb(83, 83, 83) !important;"></p>
+</div><div class="is-block is-text fit-content g-dW4V72T new-block-1 medium-editor-element" data-weightaceitos="100,200,300,400,500,600,700,800,900" data-fonte-index="3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="0352f2b6-6228-9f76-2361-ab80ee3a09db">
+    <p class="g-lz9i6UA" style=""><b>O dente tratado volta a funcionar normalmente?</b>
+
+Sim! Um dente que passou por tratamento de canal, se corretamente restaurado e cuidado, pode durar muitos anos e funcionar normalmente na mastigação.<br class="g-imKyWmu" style="color: rgb(83, 83, 83) !important;"></p>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="is-block g-BPQPHzw medium-editor-element mob-alterado" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="17" medium-editor-index="7d4de77f-a77e-f041-b14a-21e572d911db" data-originalpos="386">
+          <div class="landingpage-widget-imagem">
+            
+        <img loading='lazy' style="width: 100%; height:100%;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/uploads/landingpage/59j5ml023401.png" id="count-kuqXMfw" class="wow g-VGPYUBq fadeIn">
+    
+          </div>
+        </div>
+    
+    <div class="is-block g-BW4TTGU new-block-1 block-mobile-only medium-editor-element" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="2c58ae2f-e123-c3f1-73ff-85abeed7a34e">
+        <img loading='lazy' style="width: 100%; height:100%;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/6887dfce6851e.jpeg">
+    </div>
+    
+    <div class="is-block g-Vl6PXXq new-block-1 block-mobile-only medium-editor-element" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="add87216-db4b-96e6-a0dc-33caa5e3dc3e">
+        <img loading='lazy' style="width: 100%; height:100%;" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/6887dfcf6a425.jpeg">
+    </div>
+    
+    <div class="is-block g-EEMaWfL new-block-1 is-svg medium-editor-element" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="fcc17e6f-ebe0-e2b7-e052-d418b8c5d550">
+
+        <svg viewBox="0 0 500 500" fill="url(#HUnpDxf)" class="usa-cor-solida wow g-KB9o9Ip fadeIn" xmlns="http://www.w3.org/2000/svg" style="width: 100%;height: auto;">
+            <defs class="defs-paths">
+                <circle cx="250" cy="250" r="250" id="NRCUXfo"></circle>
+
+                <clipPath id="xGSvimJ">
+                    <use xlink:href="#NRCUXfo"></use>
+                </clipPath>
+
+                <mask id="wXSeC7y" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0">
+                    <use xlink:href="#forma-7-path-1"></use>
+                </mask>
+            </defs>
+
+            <defs class="defs-imagem">
+                <pattern id="HUnpDxf" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <image width="1" height="1" preserveAspectRatio="xMidYMid slice" xlink:href="https://empreender.nyc3.digitaloceanspaces.com/landingpage/6887dfce6851e.jpeg"></image>
+                </pattern>
+            </defs>
+
+            <defs class="fundo-mask">
+                <rect id="hlrAX0n" width="100%" height="100%"></rect>
+            </defs>
+
+            <g class="forma" false="">
+                <use xlink:href="#NRCUXfo" stroke="#000" stroke-width="0" clip-path="url(#xGSvimJ)"></use>
+            </g>
+        </svg>
+        
+        </div>
+    
+    <div class="is-block g-tY8Yiva new-block-1 medium-editor-element is-svg bloco-imagem" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="13" medium-editor-index="161a9235-1097-87b5-cce0-21c573023a32">
+          <div class="landingpage-widget-imagem">
+            
+            <img loading='lazy' style="width: 100%; height: 100%" src="https://empreender.nyc3.digitaloceanspaces.com/landingpage/uploads/landingpage/uwapjc063132.png" data-width="265" id="count-jm9waIi">
+        
+          </div>
+        </div>
+    
+    
+    
+    <div class="is-block g-BCega0c new-block-1 is-svg">
+
+        <svg viewBox="0 0 1054.03 805.9" fill="url(#kNXlGNE)" class="usa-cor-solida null g-yilBujR" xmlns="http://www.w3.org/2000/svg" style="width: 100%;height: auto;">
+            <defs class="defs-paths"><path d="M14,0S-102,686,333,778s721-73,721-73V0Z" id="HIdGe5f"></path><mask id="GKTRTye" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0">
+                    <use xlink:href="#forma-2-path-1"></use>
+                </mask><clipPath id="rnTNf8F"><use xlink:href="#HIdGe5f"></use></clipPath></defs>
+
+            <defs class="defs-imagem">
+                <pattern id="kNXlGNE" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <image width="1" height="1" preserveAspectRatio="xMidYMid slice" xlink:href="https://empreender.nyc3.digitaloceanspaces.com/landingpage/6887fafcc4161.jpeg"></image>
+                </pattern>
+            </defs>
+
+            <defs class="fundo-mask">
+                <rect id="nzZE6HQ" width="100%" height="100%"></rect>
+            </defs>
+
+            <g class="forma" false=""><use xlink:href="#HIdGe5f" stroke="#000" stroke-width="0" clip-path="url(#rnTNf8F)"></use></g>
+        </svg>
+        
+        </div>
+    </section><section class="is-section g-aQGXXzN" id="s-qH5vOQJ" style="pointer-events: none; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden;"><div class="is-block is-text fit-content g-vcMdxWy new-block-1 medium-editor-element" data-weightaceitos="200,300,400,600,700,800,900" data-fonte-index="16" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="109" medium-editor-index="7ff27153-febb-dd9c-5709-423c3a5ba0b4">
+    <h1 class="g-LyUU32L" style="">Copyright © 2024 Empreender. Todos os direitos reservados<br style="" class="g-aRv5qYQ"></h1>
+</div></section>
+            
+            
+            
+            
+        
+        
+            
+            
+                
+                
+                    
+        
+    <script src="https://empreender.nyc3.digitaloceanspaces.com/static/LANDINGPAGE/parallaxInstancia" class="script-rastreio-mouse-instancia" defer=""></script></main><script type="text/javascript" src="https://empreender.nyc3.digitaloceanspaces.com/static/LANDINGPAGE/20250917-150019-8086_gz.js"></script>
+
+<script id="_content_js">
+	
+	var apenasMobile = 0 || 0;
+
+	if (apenasMobile === 1) {
+		setMobile();
+
+		document.body.classList.add('mobile-apenasmob')
+
+	} else {
+		window.addEventListener('resize', () => checkWidth());
+	}
+
+	var mobileNaoTravado = false;
+
+	if (window.innerWidth > 1024 && apenasMobile === 1) {
+		document.body.classList.add('mobile', 'mobile-desk');
+		document.body.classList.remove('mobile-travado');
+		mobileNaoTravado = true;
+	}
+
+	// se caso o mobile não seja travado mas esteja no mobile ele irá forçar os sliders a ter 1 visualização
+	if (window.innerWidth < 1024) {
+		apenasMobile = 1;
+		mobileNaoTravado = false;
+		setMobile();
+	}
+</script>
+<!-- <script src="https://app.landingpage.com.br/construtor/assets/js/galeria.js"></script> -->
+<!-- <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script> -->
+<!-- script dos blocos de progresso, não pode ficar no editor e por isso está aqui rsrs (TODO: Remover, deixar dinamico) -->
+
+	<script src="https://empreender.nyc3.digitaloceanspaces.com/static/LANDINGPAGE/formulario/app.bundle.js"></script>
+
+<script src="https://empreender.nyc3.digitaloceanspaces.com/static/LANDINGPAGE/script-progresso"></script>
+<script src="https://empreender.nyc3.digitaloceanspaces.com/static/LANDINGPAGE/wow"></script>
+<script>
+	// window.onload = function() {
+	// wow para as 2views
+	new WOW({
+		scrollContainer: 'body',
+		offset: 50,
+	}).init();
+
+	new WOW().init({
+		offset: 50,
+	});
+	// };
+</script>
+
+<script>
+	// força os sliders a ficarem com apenas 1 visualização caso o mobile esteja travado
+	window.addEventListener('load', () => {
+		if (teste_arr) {
+			teste_arr?.forEach(slider => {
+				if (apenasMobile === 1) {
+					slider.glide.update({
+						perView: 1,
+					});
+				} else {
+					// mesmo salvando o perview errado no mobile ele irá colocar o correto aqui
+					slider.glide.update({
+						perView: slider.perView,
+					});
+				}
+			});
+		}
+	});
+</script>
+
+	<!--	0.91028714179993	-->
+</body>
+
+</html>
